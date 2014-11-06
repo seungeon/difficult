@@ -31,7 +31,7 @@ function draw()
 	image(img, 450 + Math.cos(timing*2*PI)*200 - 8.5, 450 + Math.sin(timing*2*PI)*200 - 8.5);
 
     //지구
-
+    var duration = 7500;
     image(img2, 450 + Math.cos(timing*2*PI)*350 - 37.5, 450 + Math.sin(timing*2*PI)*350 - 37.5);
 	/*fill(255);
     ellipse(450 + Math.cos(timing*2*PI)*350,                       
