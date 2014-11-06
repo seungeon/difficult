@@ -53,7 +53,7 @@ function draw()
     var duration = 7000;
     var timing = (new Date()%duration)/duration;
 
-    fill(197,182,182);
+    fill(0);
     ellipse(450 + Math.cos(timing*2*PI)*200,                       
     450 + Math.sin(timing*2*PI)*200,
     10, 10);  
