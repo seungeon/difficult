@@ -36,9 +36,9 @@ function draw()
     100, 100); */ 
 
     //달
-	fill(255*random);
-    ellipse(450 + Math.cos(timing*2*PI)*350 + Math.cos(timing*4*PI)*80,                       
-    450 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80,
+	fill(255);
+    ellipse(450 + Math.cos(timing*2*PI)*350 - 3.75 + Math.cos(timing*4*PI)*80,                       
+    450 + Math.sin(timing*2*PI)*350 - 3.75 + Math.sin(timing*4*PI)*80,
     30, 30);  
 
     //수성
