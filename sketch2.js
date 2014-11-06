@@ -7,6 +7,7 @@ function setup()
     createCanvas(900,900);
     bg = loadImage("back.jpg");
     img = loadImage("star1.png");
+    img2 = loadImage("earth.png")
   // Load the image 
 }
 
