@@ -28,10 +28,12 @@ function draw()
 	image(img, 450 + Math.cos(timing*2*PI)*200 - 8.5, 450 + Math.sin(timing*2*PI)*200 - 8.5);
 
     //지구
-	fill(255);
+
+    image(img2, 450 + Math.cos(timing*2*PI)*350 - 75, 450 + Math.sin(timing*2*PI)*350 - 75);
+	/*fill(255);
     ellipse(450 + Math.cos(timing*2*PI)*350,                       
     450 + Math.sin(timing*2*PI)*350,
-    100, 100);  
+    100, 100); */ 
 
     //달
 	fill(255*random);
