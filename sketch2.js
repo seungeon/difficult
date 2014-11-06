@@ -13,7 +13,7 @@ function draw()
 	background(0);
     fill(237,112,50);
     noStroke();
-    ellipse(450,450,350,350);
+ 
 
 
     var duration = 5000;
