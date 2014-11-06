@@ -12,7 +12,6 @@ function setup()
 
 function draw()
 {
-	background(0);
     background(bg);
 
     fill(237,112,50);
