@@ -50,7 +50,7 @@ function draw()
     30, 30);  */
 
     //수성
-    var duration = 7000;
+    var duration = 6000;
     var timing = (new Date()%duration)/duration;
 
     fill(0);
@@ -59,7 +59,7 @@ function draw()
     10, 10);  
 
     //금성
-    var duration = 7600;
+    var duration = 9000;
     var timing = (new Date()%duration)/duration;
 
 
