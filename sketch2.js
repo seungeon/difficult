@@ -10,6 +10,7 @@ function setup()
     img = loadImage("star1.png");
     img2 = loadImage("earth.png")
     img3 = loadImage("moon.png")
+    img4 = loadImage("starcopy.png")
   // Load the image 
 }
 
@@ -61,9 +62,13 @@ function draw()
     var duration = 7600;
     var timing = (new Date()%duration)/duration;
 
+
+    image(img4,450 + Math.cos(timing*2*PI)*250,450 + Math.sin(timing*2*PI)*250)
+
+/*
     fill(169,127,93);
     ellipse(450 + Math.cos(timing*2*PI)*250,                       
     450 + Math.sin(timing*2*PI)*250,
     50, 50);  
-
+*/
 }
