@@ -1,9 +1,11 @@
 var img;  
 var img2;
+var bg;
 
 function setup()
 {
     createCanvas(900,900);
+    bg = loadImage("back.jpg");
     img = loadImage("star.png");
     img2 = loadImage("Sunn.jpg")  // Load the image 
 }
@@ -11,10 +13,12 @@ function setup()
 function draw()
 {
 	background(0);
+    background(bg);
+
     fill(237,112,50);
     noStroke();
  
-
+    image(img2);
 
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
