@@ -22,7 +22,7 @@ function draw()
  
 
 
-    var duration = 5000;
+    var duration = 8000;
     var timing = (new Date()%duration)/duration;
 
 
@@ -39,8 +39,8 @@ function draw()
 
     //달
 
-    image(img3,450 + Math.cos(timing*2*PI)*350 - 3.75 + Math.cos(timing*4*PI)*80,                       
-    450 + Math.sin(timing*2*PI)*350 - 3.75 + Math.sin(timing*4*PI)*80)
+    image(img3,450 + Math.cos(timing*2*PI)*350 - 25 + Math.cos(timing*4*PI)*80,                       
+    450 + Math.sin(timing*2*PI)*350 - 25 + Math.sin(timing*4*PI)*80)
 
     /*
 	fill(255);
