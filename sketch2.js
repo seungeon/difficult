@@ -1,6 +1,7 @@
 var img;  
 var img2;
 var bg;
+var img3;
 
 function setup()
 {
@@ -8,6 +9,7 @@ function setup()
     bg = loadImage("back.jpg");
     img = loadImage("star1.png");
     img2 = loadImage("earth.png")
+    img3 = loadImage("moon.png")
   // Load the image 
 }
 
@@ -36,10 +38,15 @@ function draw()
     100, 100); */ 
 
     //달
+
+    image(img3,450 + Math.cos(timing*2*PI)*350 - 3.75 + Math.cos(timing*4*PI)*80,                       
+    450 + Math.sin(timing*2*PI)*350 - 3.75 + Math.sin(timing*4*PI)*80)
+
+    /*
 	fill(255);
     ellipse(450 + Math.cos(timing*2*PI)*350 - 3.75 + Math.cos(timing*4*PI)*80,                       
     450 + Math.sin(timing*2*PI)*350 - 3.75 + Math.sin(timing*4*PI)*80,
-    30, 30);  
+    30, 30);  */
 
     //수성
     var duration = 7000;
