@@ -31,7 +31,7 @@ function draw()
 
     //지구
 
-    image(img2, 450 + Math.cos(timing*2*PI)*350 - 3.75, 450 + Math.sin(timing*2*PI)*350 - 3.75);
+    image(img2, 450 + Math.cos(timing*2*PI)*350 - 37.5, 450 + Math.sin(timing*2*PI)*350 - 37.5);
 	/*fill(255);
     ellipse(450 + Math.cos(timing*2*PI)*350,                       
     450 + Math.sin(timing*2*PI)*350,
