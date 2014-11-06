@@ -4,7 +4,7 @@ var img2;
 function setup()
 {
     createCanvas(900,900);
-    img = loadImage("1Mercury.png");
+    img = loadImage("star.png");
     img2 = loadImage("Sunn.jpg")  // Load the image 
 }
 
